@@ -18,8 +18,9 @@ body {
 }
 
 @media (max-width: 768px) {
-.header { text-align: center;
-}
+  .header {
+    text-align: center;
+  }
 }
 .main {
   display: block;
@@ -35,14 +36,15 @@ body {
   display: flex;
 }
 .todo-list__inner,
-.todo-complited__inner{
+.todo-complited__inner {
   margin: 0;
   padding: 0px;
 }
 .todo__item {
   list-style: none;
 }
-input, button{
+input,
+button {
   outline: none;
 }
 .add,
