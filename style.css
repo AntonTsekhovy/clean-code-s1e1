@@ -29,7 +29,7 @@ body {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .todo__wrapper {
   display: flex;
@@ -58,7 +58,7 @@ input, button{
 }
 .add:hover,
 .edit:hover,
-.delete:hover{
+.delete:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -120,7 +120,7 @@ input, button{
   width: 226px;
 }
 .todo__item .todo__input-text {
-  width: 226px
+  width: 226px;
 }
 .todo__delete-img {
   height: 2em;
@@ -133,18 +133,18 @@ input, button{
 
 /* Completed */
 #completed-tasks .todo__label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .todo__item .todo__input-text {
-  display: none
+  display: none;
 }
 
 .editMode .todo__input-text {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .editMode .todo__label {
