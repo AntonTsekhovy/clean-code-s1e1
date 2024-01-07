@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Todo App</title>
     <link
       href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
       rel="stylesheet">
-    <link 
-      rel="stylesheet" 
-      href="style.css" 
-      media="screen" 
-      charset="utf-8">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header class="header">
@@ -20,7 +18,7 @@
         >Want more details?</a>
     </header>
     <main class="main">
-      <section class="todo-add">
+      <div class="todo-add">
         <label class="todo-add__label" for="new-task">Add Item</label>
         <div class="todo__wrapper">
           <input 
@@ -29,7 +27,7 @@
             type="text">
           <button class="add">Add</button>
         </div>
-      </section>
+      </div>
       <section class="todo-list">
         <h3 class="todo__title">Todo</h3>
         <ul class="todo-list__inner">
