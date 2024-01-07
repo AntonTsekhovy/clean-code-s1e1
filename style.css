@@ -17,7 +17,7 @@ body {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 .header { text-align: center;
 }
 }
@@ -36,14 +36,14 @@ body {
 }
 .todo-list__inner,
 .todo-complited__inner{
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .todo__item {
-  list-style:none;
+  list-style: none;
 }
 input, button{
-  outline:none;
+  outline: none;
 }
 .add,
 .edit,
@@ -139,14 +139,14 @@ input, button{
 
 /* Edit Task */
 .todo__item .todo__input-text {
-  display:none
+  display: none
 }
 
 .editMode .todo__input-text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .editMode .todo__label {
-  display:none;
+  display: none;
 }
